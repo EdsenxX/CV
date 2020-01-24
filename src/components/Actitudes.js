@@ -11,7 +11,7 @@ function Actitudes(props) {
           <li>Adaptabilidad</li>
           <li>Trabajo en equipo</li>
           <li>Liderazgo</li>
-          <li>Empatia</li>
+          <li>Empatía</li>
           <li>Lealtad</li>
           <li>Honestidad</li>
         </ul>

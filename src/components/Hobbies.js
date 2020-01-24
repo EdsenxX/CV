@@ -11,7 +11,7 @@ function Contacto(props) {
       <div className="hobbies">
         <div className="hobbie">
           <FaHeadphones className="hobbie_icon" />
-          <p>Musica</p>
+          <p>Música</p>
         </div>
         <div className="hobbie">
           <FaLaptopCode className="hobbie_icon" />
@@ -19,7 +19,7 @@ function Contacto(props) {
         </div>
         <div className="hobbie">
           <MdMovie className="hobbie_icon" />
-          <p>Peliculas</p>
+          <p>Películas</p>
         </div>
         <div className="hobbie">
           <FaGuitar className="hobbie_icon" />

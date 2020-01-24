@@ -14,10 +14,6 @@ import Conocimiento from "../components/Conocimiento";
 import Footer from "../components/Footer";
 
 class Home extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="Home">
@@ -34,13 +30,25 @@ class Home extends Component {
               <div className="social_networks_container">
                 <ul className="social_networks">
                   <li>
-                    <FaFacebook />
+                    <a
+                      href="https://www.facebook.com/EduardoSerranoJaime"
+                      target="blank"
+                    >
+                      <FaFacebook />
+                    </a>
                   </li>
                   <li>
-                    <FaInstagram />
+                    <a
+                      href="https://www.instagram.com/eduardo.serrano.j/"
+                      target="blank"
+                    >
+                      <FaInstagram />
+                    </a>
                   </li>
                   <li>
-                    <FaTwitter />
+                    <a href="https://twitter.com/eduardo15484" target="blank">
+                      <FaTwitter />
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -50,13 +58,13 @@ class Home extends Component {
             <div className="content">
               <div className="content_whole about_me">
                 <p>
-                  Soy un amante de aprender nuevas tecnologias para el desarollo
-                  de software especialmente para el desarrollo de aplicaiones
-                  webs
+                  Soy un amante de aprender nuevas tecnologías para el
+                  desarrollo de software especialmente para el desarrollo de
+                  aplicaciones webs
                 </p>
                 <p>
-                  Soy estudiante de Ingenieria en Sistemas Computacionales en el
-                  Instituto tecnologico de colima y desarrollador de
+                  Soy estudiante de Ingeniería en Sistemas Computacionales en el
+                  Instituto tecnológico de colima y desarrollador de
                   aplicaciones web en la Unidad Estatal de Protección Civil
                   Colima
                 </p>

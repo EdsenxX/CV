@@ -19,8 +19,8 @@ function Experiencia(props) {
             <p className="puesto">Programador Web</p>
             <p className="ano">17/09/2019-Actualidad</p>
             <p className="description">
-              Implementacion de un sistema de inventario desarrollado para la
-              web y preparado para el desarrollo de un aplicación mobil
+              Implementación de un sistema de inventario desarrollado para la
+              web y preparado para el desarrollo de un aplicación móvil
             </p>
           </div>
         </div>
@@ -32,7 +32,7 @@ function Experiencia(props) {
             <p className="nombre_empresa">
               Unidad Estatal de Protección Civil Colima
             </p>
-            <p className="puesto">Practicas Profesionales</p>
+            <p className="puesto">Prácticas Profesionales</p>
             <p className="ano">11/03/2018-11/06/2018</p>
             <p className="description">
               Mejora de aplicaciones web ya existentes

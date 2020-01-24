@@ -2,7 +2,6 @@ import React from "react";
 import {
   FaPython,
   FaReact,
-  FaMobile,
   FaGit,
   FaGithub,
   FaSass,
@@ -42,11 +41,11 @@ function Conocimiento(props) {
       <div className="tecnologias">
         <div className="tecnologia">
           <FaReact className="tecnologia-icono" />
-          <p>Ract js</p>
+          <p>Ract.js</p>
         </div>
         <div className="tecnologia">
-          <FaMobile className="tecnologia-icono" />
-          <p>Ract Native js</p>
+          <FaReact className="tecnologia-icono" />
+          <p>Ract Native</p>
         </div>
         <div className="tecnologia">
           <FaPython className="tecnologia-icono" />
