@@ -1,0 +1,33 @@
+.experiencia_container {
+  width: 48%;
+  margin: 2em 0;
+  @media only screen and (max-width: 1100px) {
+    width: 100%;
+  }
+  h2 {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+  }
+  .experiencia {
+    margin: 1em 0;
+    .empresa {
+      p {
+        font-family: "Maven Pro", sans-serif;
+        font-size: 1em;
+      }
+      display: flex;
+      margin: 0.5em 0;
+      .logo {
+        img {
+          width: 6em;
+          height: 6em;
+        }
+      }
+      .info {
+        .nombre_empresa {
+          font-family: "Oswald", sans-serif;
+        }
+      }
+    }
+  }
+}
