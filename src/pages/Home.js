@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 import "./styles/Home.scss";
 import "../animated.css";
-import Profile from "../assets/images/profile.jpg";
+import Profile from "../assets/images/profile.jpeg";
 
 import Hobbies from "../components/Hobbies";
 import Estudios from "../components/Estudios";
